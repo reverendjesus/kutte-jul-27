@@ -497,6 +497,7 @@ let flip = false
 let random = 0
 let scroll: string[] = []
 let showMode = false
+radio.setGroup(1)
 showMode = true
 modeSwitch()
 basic.forever(function () {
